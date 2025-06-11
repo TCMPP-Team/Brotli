@@ -1,0 +1,4 @@
+module Brotli {
+    umbrella "/Users/xcode/Desktop/work/SPM/Dependencies/Brotli/Brotli/Classes"
+    export *
+}
