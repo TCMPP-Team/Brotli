@@ -19,7 +19,7 @@ let package = Package(
         .target(
             name: "Brotli",
             path: "Brotli",
-            sources: ["Classes", "Source"],
+            sources: ["Classes", "Source/c/common", "Source/c/dec", "Source/c/enc"],
             publicHeadersPath: "Classes",
             cSettings: [
                 .headerSearchPath("Source/c/include"),
